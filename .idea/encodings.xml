@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/com.airbnb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.att/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.bankofamerica/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.bmw/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.cbssports/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.chasebank/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.espn/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.expedia/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.macys/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.mercedesbenz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.redfin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.trulia/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.verizon/src/main/java" charset="UTF-8" />
+  </component>
+</project>

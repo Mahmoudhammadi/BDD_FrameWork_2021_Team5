@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BDD_FrameWork_2021_Team5.iml" filepath="$PROJECT_DIR$/BDD_FrameWork_2021_Team5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.Generic/com.Generic.iml" filepath="$PROJECT_DIR$/com.Generic/com.Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.airbnb/com.airbnb.iml" filepath="$PROJECT_DIR$/com.airbnb/com.airbnb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.att/com.att.iml" filepath="$PROJECT_DIR$/com.att/com.att.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.bankofamerica/com.bankofamerica.iml" filepath="$PROJECT_DIR$/com.bankofamerica/com.bankofamerica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.bmw/com.bmw.iml" filepath="$PROJECT_DIR$/com.bmw/com.bmw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.cbssports/com.cbssports.iml" filepath="$PROJECT_DIR$/com.cbssports/com.cbssports.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.chasebank/com.chasebank.iml" filepath="$PROJECT_DIR$/com.chasebank/com.chasebank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.espn/com.espn.iml" filepath="$PROJECT_DIR$/com.espn/com.espn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.expedia/com.expedia.iml" filepath="$PROJECT_DIR$/com.expedia/com.expedia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.macys/com.macys.iml" filepath="$PROJECT_DIR$/com.macys/com.macys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.mercedesbenz/com.mercedesbenz.iml" filepath="$PROJECT_DIR$/com.mercedesbenz/com.mercedesbenz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.redfin/com.redfin.iml" filepath="$PROJECT_DIR$/com.redfin/com.redfin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.trulia/com.trulia.iml" filepath="$PROJECT_DIR$/com.trulia/com.trulia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.verizon/com.verizon.iml" filepath="$PROJECT_DIR$/com.verizon/com.verizon.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="com.mercedesbenz" />
+        <module name="com.bankofamerica" />
+        <module name="com.airbnb" />
+        <module name="com.expedia" />
+        <module name="com.macys" />
+        <module name="com.chasebank" />
+        <module name="com.cbssports" />
+        <module name="com.verizon" />
+        <module name="com.bmw" />
+        <module name="com.espn" />
+        <module name="com.trulia" />
+        <module name="com.att" />
+        <module name="com.Generic" />
+        <module name="com.redfin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BDD_FrameWork_2021_Team5" target="1.8" />
+      <module name="com.airbnb" target="1.8" />
+      <module name="com.att" target="1.8" />
+      <module name="com.bankofamerica" target="1.8" />
+      <module name="com.bmw" target="1.8" />
+      <module name="com.cbssports" target="1.8" />
+      <module name="com.chasebank" target="1.8" />
+      <module name="com.espn" target="1.8" />
+      <module name="com.expedia" target="1.8" />
+      <module name="com.Generic" target="1.8" />
+      <module name="com.macys" target="1.8" />
+      <module name="com.mercedesbenz" target="1.8" />
+      <module name="com.redfin" target="1.8" />
+      <module name="com.trulia" target="1.8" />
+      <module name="com.verizon" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
