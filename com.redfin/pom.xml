@@ -11,61 +11,68 @@
 
     <artifactId>com.redfin</artifactId>
 
+    <dependencies>
+
+        <dependency>
+            <groupId>com.Team5</groupId>
+            <artifactId>com.Generic</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/net.masterthought/maven-cucumber-reporting -->
+
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>6.6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
+            <version>3.141.59</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.team5</groupId>
+            <artifactId>com.Generic</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+
+
     <build>
-
+        <!-- To define the plugin version in your parent POM -->
         <plugins>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M3</version>
                 <configuration>
+                    <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>
-
+                        <!-- <suiteXmlFiles>target/test-classes/AmazonTestRunner.xml</suiteXmlFiles>-->
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>net.masterthought</groupId>
-                <artifactId>maven-cucumber-reporting</artifactId>
-                <executions>
-                    <execution>
-                        <id>execution</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>generate</goal>
-                        </goals>
-                        <configuration>
-                            <projectName>Team 3 Cucumber Reports</projectName>
-                            <outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>
-                            <buildNumber>1</buildNumber>
-                            <skip>false</skip>
-                            <inputDirectory>${project.build.directory}/cucumber-reports</inputDirectory>
-                            <jsonFiles>
-                                <param>**/*.json</param>
-                            </jsonFiles>
-                            <classificationDirectory>${project.build.directory}/cucumber-reports
-                            </classificationDirectory>
-                            <checkBuildResult>false</checkBuildResult>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-
         </plugins>
 
+
     </build>
+
 
 </project>

@@ -8,6 +8,9 @@
 */target/**
 ./target/
 *.iml
+*.xml
+./pom.xml
+*.txt
 # Log file
 *.log
 

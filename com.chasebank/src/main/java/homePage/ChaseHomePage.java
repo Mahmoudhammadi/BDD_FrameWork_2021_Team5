@@ -1,4 +1,6 @@
 package homePage;
 
-public class ChaseHomePage {
+
+public class ChaseHomePage{
+
 }
